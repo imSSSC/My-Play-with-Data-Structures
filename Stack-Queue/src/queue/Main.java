@@ -28,7 +28,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int opCount = 1000000;
+        int opCount = 100000;
 
         ArrayQueue<Integer> arrayQueue = new ArrayQueue<>();
         System.out.println(testQueue(arrayQueue, opCount));
